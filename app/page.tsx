@@ -66,7 +66,7 @@ export default function Home() {
             {missingSkills.length > 0 ? (
               missingSkills.map(skill => <li key={skill}>{skill}</li>)
             ) : (
-              <li className="text-gray-500">None — you're fully matched!</li>
+              <li className="text-gray-500">None — you&apos;re fully matched!</li>
             )}
           </ul>
         </div>
